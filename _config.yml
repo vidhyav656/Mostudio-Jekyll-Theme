@@ -1,0 +1,71 @@
+title: "Vidhya Venkatesan"
+email: "vidhyav656@gmail.com"
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://vidhyav656.tech" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: vidhyav656
+github_username:  vidhyav656
+site_logo: "/assets/images/logo_1.png"
+copyright: "Copyright &copy; 2020 <span>Vidhyav656</span>. All rights reserved."
+
+permalink: "/:title"
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+facebook_url: "https://www.facebook.com/"
+twitter_url: "https://twitter.com/vidhyav656"
+instagram_url: "https://instagram.com/vidhyav656"
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+site_preloader: true
+
+collections:
+  services:
+    output: true
+  pages:
+    output: true
+    permalink: "/:title"
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
+
+jekyll-archives:
+  enabled: all
+  layout: category
+  permalinks:
+    category: '/category/:name/'
+
+feed:
+  collections:
+    posts:
+      path: "/index.xml"
