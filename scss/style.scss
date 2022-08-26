@@ -47,14 +47,14 @@ body {
 	color: lighten($black,40%);
 	&.offcanvas {
 		overflow-x: hidden;
-		#colorlib-aside {
+		#aside {
 			@include translateX(0);
 			width: 270px;
 			background: $white;
 			z-index: 999;
 			position: fixed;
 		}
-		#colorlib-main, .colorlib-nav-toggle {
+		#main, .nav-toggle {
 			top: 0;
 			@include translateX(220px);
 		}
@@ -79,14 +79,14 @@ h1, h2, h3, h4, h5,
 
 
 
-#colorlib-page {
+#page {
   width: 100%;
   overflow: hidden;
   position: relative;
 }
 
 
-#colorlib-aside {
+#aside {
 	padding-top: 3em;
 	padding-bottom: 40px;
 	padding-left: 2em;
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5,
 		@include translateX(-270px);
 		padding-top: 2em;
 	}
-	#colorlib-logo {
+	#logo {
 		display: block;
 		width: 100%;
 		font-weight: normal;
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5,
 			background-position: center center;
 		}
 	}
-	#colorlib-main-menu {
+	#main-menu {
 		ul {
 			margin: 0;
 			padding: 0;
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5,
 					&:hover {
 						text-decoration: none;
 						color: $primary;
-						
+
 						&:after {
 							visibility: visible;
 							-webkit-transform: scaleX(1);
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5,
 						}
 					}
 				}
-				&.colorlib-active {
+				&.active {
 					font-weight: 600;
 					a {
 						color: $primary;
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5,
 			}
 		}
 	}
-	.colorlib-footer {
+	.footer {
 		position: absolute;
 		bottom: 20px;
 		left: 0;
@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5,
 		.pfooter{
 			font-size: 14px;
 		}
-		.colorlib-subscribe-form{
+		.subscribe-form{
 			width: 100%;
 			.form-group {
 				position: relative;
@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5,
 	}
 }
 
-#colorlib-main {
+#main {
 	width: 100%;
 	float: right;
 	@include transition(.5s);
@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5,
 
 
 // Burger Menu
-.colorlib-nav-toggle {
+.nav-toggle {
   cursor: pointer;
   text-decoration: none;
   &.active i {
@@ -347,22 +347,22 @@ h1, h2, h3, h4, h5,
   }
 }
 
-.colorlib-nav-toggle i::before {
+.nav-toggle i::before {
   top: -7px;
 }
-.colorlib-nav-toggle i::after {
+.nav-toggle i::after {
   bottom: -7px;
 }
-.colorlib-nav-toggle:hover i::before {
+.nav-toggle:hover i::before {
   top: -8px;
 }
-.colorlib-nav-toggle:hover i::after {
+.nav-toggle:hover i::after {
   bottom: -8px;
 }
-.colorlib-nav-toggle.active i {
+.nav-toggle.active i {
 	background: transparent;
 }
-.colorlib-nav-toggle.active i::before {
+.nav-toggle.active i::before {
   top:0;
   -webkit-transform: rotateZ(45deg);
      -moz-transform: rotateZ(45deg);
@@ -370,7 +370,7 @@ h1, h2, h3, h4, h5,
        -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
-.colorlib-nav-toggle.active i::after {
+.nav-toggle.active i::after {
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
      -moz-transform: rotateZ(-45deg);
@@ -378,7 +378,7 @@ h1, h2, h3, h4, h5,
        -o-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
-.colorlib-nav-toggle {
+.nav-toggle {
 	position: fixed;
 	left: 0px;
 	top: 0px;
@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5,
 		opacity: 1;
 		visibility: visible;
 	}
-  
+
 }
 
 .ftco-about{
@@ -686,7 +686,7 @@ h1, h2, h3, h4, h5,
 			opacity: .3;
 			z-index: -1;
 		}
-		
+
 	}
 	.text{
 		position: relative;
@@ -861,9 +861,9 @@ textarea.form-control {
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
   -webkit-backface-visibility: hidden;
-  -webkit-transition: all 0.3s ease-out; 
-  -moz-transition: all 0.3s ease-out; 
-  -o-transition: all 0.3s ease-out; 
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
@@ -874,7 +874,7 @@ textarea.form-control {
     opacity: 0.8;
 }
 
-.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing .mfp-container,
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0;
 }
@@ -1067,7 +1067,7 @@ textarea.form-control {
 	background-color: rgba(255,255,255,0.9);
 	box-shadow: 0px 24px 64px rgba(0,0,0,0.24);
 	border-radius:16px;
-	opacity: 0; 
+	opacity: 0;
 	visibility: hidden;
 	transition: opacity .2s ease-out, visibility 0s linear .2s;
 	z-index:1000;

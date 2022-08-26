@@ -1,0 +1,36 @@
+basic_settings:
+  site_logo: "/assets/images/vidhyav656.png"
+  copyright: "Copyright &copy; 2020 <span>Vidhyav656</span>. All rights reserved."
+
+social_settings:
+  facebook_url: 'https://www.facebook.com/vidhyav656'
+  twitter_url: 'https://twitter.com/vidhyav656'
+  instagram_url: 'https://twitter.com/vidhyav656'
+  youtube_url: 'https://www.youtube.com/channel/UCXgRdsti0ddAw11b6FVq-HA'
+  vimeo_url: ''
+  pinterest_url: 'https://www.pinterest.com/vidhyav656/'
+  tumblr_url: ''
+  dribbble_url: ''
+  behance_url: 'https://www.behance.net/vidhyav656/moodboards'
+  github_url: 'https://twitter.com/vidhyav656'
+  reddit_url: ''
+  linkedin_url: 'https://linkedin.com/vidhyav656'
+  codepen_url: 'https://codepen.io/vidhyav656'
+  gitlab_url: 'https://gitlab.com/vidhyav656'
+  bitbucket_url: 'https://bitbucket.com/vidhyav656'
+  themeforest_url: 'https://themeforest.net/user/vidhyav656'
+  devto_url: 'https://dev.to/vidhyav656'
+  medium_url: 'https://medium.com/@vidhyav656'
+  fiver_url: 'https://www.fiverr.com/vidhyav656'
+  upwork_url: ''
+  themeforest_url: 'https://themeforest.net/user/vidhyav656'
+
+authors:
+  vidhya:
+    name: Vidhya
+    picture: /assets/images/vidhyav656.jpg
+
+advanced_settings:
+  analytics_code:
+  header_js:
+  footer_js:
