@@ -20,6 +20,7 @@ sass:
 collections:
   portfolio:
     output: true
+    permalink: "/:title"
   pages:
     output: true
     permalink: "/:title"

@@ -1,6 +1,7 @@
 basic_settings:
+  site_title : "Mostudio - Free Bootstrap 4 Template by Colorlib"
   site_logo: "/assets/images/vidhyav656.png"
-  copyright: "Copyright &copy; 2020 <span>Vidhyav656</span>. All rights reserved."
+  copyright: "Copyright &copy; 2020 <span>Vidhya Venkatesan</span>. All rights reserved."
 
 social_settings:
   facebook_url: 'https://www.facebook.com/vidhyav656'
@@ -23,7 +24,6 @@ social_settings:
   medium_url: 'https://medium.com/@vidhyav656'
   fiver_url: 'https://www.fiverr.com/vidhyav656'
   upwork_url: ''
-  themeforest_url: 'https://themeforest.net/user/vidhyav656'
 
 authors:
   vidhya:
